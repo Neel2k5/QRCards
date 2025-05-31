@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Bar{
+    background-color: #4169E1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    color: aliceblue;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 5vh;
+
+}
+.Input {
+    padding: 0;
+    margin: 0;
+}
+.Input input{
+    padding: 2vh;
+    font-family: monospace;
+    border: 0;
+    outline: 0;
+    font-size: 3vh;
+    background-color: rgb(179, 185, 190);
+    width: 50vw
+    
+}
+.Input button{
+    padding: 1.8vh;
+    font-size: 3vh;
+    margin: 0;
+    border: 0;
+    background-color: #6495ED;
+    color: white;
+}
+.Input button:hover{
+    background-color: #385384;
+}
+.Input button:active{
+    background-color: #83afff;
+    color: #385384;
+}
+.Input-Container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#field{
+    margin-top: 3vh;
+    
+}
+#value{
+   margin: 0;
+   margin-bottom: 3vh;
+}
+
+.TestPair{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 3vh;
+    margin: 3vh;
+    justify-content: flex-end;
+    row-gap: 1vh;
+    column-gap: 1vh;
+    width: 59vw;
+    
+}
+.TestPair div{
+    padding: 2vh;
+    color: white;
+    background-color: #585858;
+}
+.TestPair span{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vh;
+}
+.TestPair button{
+    padding: 1.8vh;
+    
+    font-size: 3vh;
+    margin: 0;
+    border: 0;
+    background-color: #6495ED;
+    color: white;
+}
+.TestPair button:hover{
+ background-color: #385384;
+}
+.TestPair button:active{
+    background-color: #83afff;
+    color: #385384;
+}
+
+.PreviewBox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 3vh;
+    margin: 3vh;
+    justify-content: flex-end;
+    row-gap: 1vh;
+    column-gap: 1vh;
+    width: 59vw;
+}
+.Pair{
+    display: flex;
+    justify-content: space-between;
+}
+.Pair div {
+    display: inline-block;
+    margin-right: 1vw;
+}
+
+.MessageBox{
+    display: flex;
+    font-family: 'Consolas', 'Courier New', monospace;
+    flex-direction: row;
+    width: 59vw;
+}
+.MessageBox-title{
+    font-weight: 600;
+    padding: 1vw;
+    
+    font-size: 3vw;
+    color: white;
+    border-radius: 5px;
+    background-color:#575757;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.MessageBox-desc{
+    font-size: 2vw;
+    padding: 1vh;
+    background-color: #969696;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.ByteCounter{
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 3vh;
+}
+.QROutput{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2vh;
+}
+.QROutput img{
+    padding: 0.4vh;
+    margin-left: 0;
+    margin-right: 0;
+    background-color:black;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    min-width: 30vw
+    
+}
+.QROutput button{
+    padding: 1.8vh;
+    font-size: 3vh;
+    margin: 0;
+    border: 0;
+    background-color: #6495ED;
+    color: white;
+}
+.QROutput button:hover{
+    background-color: #385384;
+}
+.QROutput button:active{
+    background-color: #83afff;
+    color: #385384;
+}
+@media(max-width:600px){
+    .Input input{
+        width: 40vw;
+    }
+    .TestPair{
+        width: 80vw;
+    }
+    .PreviewBox{
+        width: 90vw;
+    }
+    .MessageBox{
+        width: 80vw;
+    }
+    .MessageBox-title{
+    padding-top: 2vh;
+    font-size: 4vh;
+}
+    .MessageBox-desc{
+        font-size: 2vh;
+        padding-top: 1vh;
+    }
+    .QROutput img{
+        min-width: 60vw;
+    }
+}
