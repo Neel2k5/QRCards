@@ -153,7 +153,7 @@ function App() {
                 />
 
       </div>
-      <Bar></Bar>
+      
       
       
     </>
