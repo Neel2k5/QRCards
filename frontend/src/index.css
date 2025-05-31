@@ -113,12 +113,26 @@
 .Pair{
     display: flex;
     justify-content: space-between;
+
 }
 .Pair div {
     display: inline-block;
     margin-right: 1vw;
 }
-
+.Pair button{
+    margin: 0;
+    border: 0;
+    background-color: #6495ED;
+    color: white;
+    padding:1vh;
+}
+.Pair button:hover{
+ background-color: #385384;
+}
+.Pair button:active{
+background-color: #83afff;
+    color: #385384;
+}
 .MessageBox{
     display: flex;
     font-family: 'Consolas', 'Courier New', monospace;
